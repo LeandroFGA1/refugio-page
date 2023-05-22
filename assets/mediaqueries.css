@@ -1,0 +1,32 @@
+/* Estilos para pantallas móviles */
+@media (max-width: 576px) {
+    header {
+        background-color: red;
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: yellow;
+        display: none;
+    }
+    
+    .toggle-menu:checked ~ .navbar {
+        display: block;
+    }
+    
+    .img-menu {
+        display: block;
+    }
+    
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-list li {
+        margin-bottom: 1rem;
+    }
+}
